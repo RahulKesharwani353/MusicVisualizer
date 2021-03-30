@@ -15,7 +15,30 @@
         android:background="@drawable/upper"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/montserrat"
+            android:text="On &amp; On"
+            android:textColor="#E6E6E6"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/montserrat"
+            android:text="Cartoon"
+            android:textColor="#BCBBBB"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
 
 
     <com.chibde.visualizer.SquareBarVisualizer
